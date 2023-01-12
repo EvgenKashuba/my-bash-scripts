@@ -4,7 +4,8 @@ X=$1
 if [ -z $X ]; then
   echo "Script requires 1 number argument, please, enter it"
   read X
-elif [[ $X =~ ^-?[0-9]+$ ]]; then
+fi
+if [[ $X =~ ^-?[0-9]+$ ]]; then
    if [ $X -lt 10 ]; then
      echo "Argument is less than 10"
    elif [ $X -gt 10 ]; then
