@@ -1,0 +1,12 @@
+**** Hepl ****
+
+This script reads 1 parameter and writes system errors in file.
+list of available parameters:
+  Jan  -- write in file system errors for January;
+  Dec  -- write in file system errors for December;
+  Nov  -- write in file system errors for November;
+  --help  -- output this content with help;
+If nothing you choose, in file will write last 20 errors current month.
+If you chose something different - you get the error massage.  
+
+**** End of help ****
